@@ -1,4 +1,4 @@
-baseURL: http://cc5330.hackerlab.cl
+baseURL: http://apunte.hackerlab.cl
 title: CC5330 - Ciberseguridad
 theme: hugo-book
 defaultContentLanguage: 'es'
@@ -41,7 +41,7 @@ markup:
 menu:
   home:
     - name: "📖 Apunte"
-      pageRef: "/docs/"
+      pageRef: "/docs/fundamentos/"
       weight: 10
     - name: "📋 Reglas"
       pageRef: "/reglas/"
@@ -57,6 +57,8 @@ menu:
     - name: "💬 Foro de U-Cursos"
       url: "www.u-cursos.cl/ingenieria/2026/2/CC5330/1/historial/"
   after:
+    - name: "🖨️ Versión imprimible"
+      url: "/docs/"
     - name: "💻 Código Fuente"
       url: "https://github.com/clcert/apunte-cc5330"
       weight: 10
