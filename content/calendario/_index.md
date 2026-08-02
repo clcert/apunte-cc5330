@@ -23,11 +23,11 @@ La fecha estimada de las evaluaciones (todas con asistencia obligatoria) puede c
 | RA1 (14 de septiembre) | 🛌 Receso Académico                                                                | Receso Académico                                   |
 | 7 (21 de septiembre)   | 📧 Seguridad en Aplicaciones Web y otras (DNS, Email, Bases de Datos)              | Caso de estudio 3 (Seguridad en Sist. Operativos)  |
 | 8 (28 de septiembre)   | 🤖 Seguridad en IA Generativa y Criptografía Moderna (Simétrica)                   | Laboratorio 3 (Seguridad de Aplicaciones Web)                 |
-| 9 (5 de octubre)       | 🔑 Criptografía Moderna (Asimétrica y post cuántica)                               | Auxiliar sin evaluación                            |
+| 9 (5 de octubre)       | 🔑 Criptografía Moderna (Asimétrica)                               | Auxiliar sin evaluación                            |
 | 10 (12 de octubre)     | 🛡️ Aplicaciones criptográficas y Análisis estático y dinámico                      | Caso de estudio 4 (Criptografía)                  |
-| 11 (19 de octubre)     | 🖊️ Seguridad defensiva y ofensiva con LLMs y Seguridad por Diseño                  | Laboratorio 4  (Seguridad IA Generativa)                    |
+| 11 (19 de octubre)     | 🖊️ Seguridad por Diseño y Actores de Amenaza           | Laboratorio 4  (Seguridad IA Generativa)                    |
 | RA2 (26 de octubre)    | 🌴 Receso Académico                                                                | Receso Académico                                   |
-| 12 (2 de noviembre)    | 😈 Actores de Amenaza y Malware                                                    | Auxiliar sin evaluación                            |
+| 12 (2 de noviembre)    | 😈 Malware, Monitoreo y Detección                                                   | Auxiliar sin evaluación                            |
 | 13 (9 de noviembre)    | 🔎 Inteligencia de Amenazas y Respuesta a Incidentes                               | Caso de estudio 5 (Actores de amenaza)             |
 | 14 (16 de noviembre)   | ⚖️ Leyes Chilenas y Reporte Coordinado de Vulnerabilidades                         | Laboratorio 5  (Inteligencia de Amenazas)          |
 | 15 (23 de noviembre)   | 👁️ Vigilancia y Anonimato                                                          | Auxiliar sin evaluación                            |
