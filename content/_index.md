@@ -1,6 +1,7 @@
 ---
 layout: landing
 ---
+{{< katex />}}
 
 <div class="book-hero">
 
@@ -17,22 +18,31 @@ Este es el sitio oficial del curso CC5330 - Ciberseguridad, dictado por el [Depa
 </div>
 
 
-# 🌻 primavera 2026:
+# 🌻 Resumen Primavera 2026
 
 {{% columns %}}
-- ## Equipo Docente 
+- ## 🧑‍🏫 Equipo Docente 
   * **Profesor de Cátedra**: Eduardo Riveros Roca
-  * **Profesora Auxiliar**: Antonia Gutiérrez
+  * **Profesora Auxiliar**: Antonia Gutiérrez Calvo
   * **Ayudante**:  Por definir
 
 
-- ## Horario del curso
+  ## 🕓 Horario del curso
   * **Cátedras**: martes y jueves, de 14:30 a 16:00 hrs.
   * **Auxiliares**:  viernes, de 10:00 a 12:00 hrs.
 
-- ## Evaluaciones
-  * **Ejercicios individuales**: Semanas 2, 5, 7, 10, 13
-  * **Ejercicios grupales**: Semanas 
+  Puedes encontrar el detalle de las clases y fechas de evaluación en el [Calendario del curso](/calendario)
 
-  Puedes ver más detalle en el [Calendario del curso](/calendario)
+- ## ✏️ Evaluaciones
+  * **Casos de estudio** ($CE$): Semanas 2, 4, 7, 10 y 13
+  * **Laboratorios** ($LAB$): Semanas 3, 5, 8, 11 y 14
+  * **Nota de Casos de Estudio** ($NCE$) **y Nota de Laboratorios** ($NLAB$):
+    * **Si asistes a todas las evaluaciones o justificas todas las inasistencias**, es el promedio de las mejores 4 notas
+    * **Si no**, es el promedio de todas las notas.
+  * **Nota Final**: 
+    * **Si tu NLAB es menor a $5{,}5$**: $\frac{NLAB+NCE}{2}\times 0{,}6 + NEX \times 0{,}4$
+    * **En caso contrario**,  $\frac{NLAB+NCE}{2}$
+
+  Puedes encontrar más información en la página [Reglas del curso](/reglas)
+
 {{% /columns %}}
