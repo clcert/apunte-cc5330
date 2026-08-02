@@ -1,8 +1,9 @@
 baseURL: http://cc5330.hackerlab.cl
 title: Apunte CC5330 - Ciberseguridad
 theme: hugo-book
+defaultContentLanguage: 'es'
 
-copyright: "Por Eduardo Riveros Roca. Distribuido bajo una licencia Creative Commons CC-BY-SA"
+copyright: "Apunte mantenido por el [Laboratorio de Criptografía Aplicada y Ciberseguridad de la Universidad de Chile](https://clcert.cl) y distribuido bajo una [licencia Creative Commons BY-NC-SA]( https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 
 # Book configuration
 disablePathToLower: true
@@ -76,7 +77,8 @@ params:
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
-  # BookLogo: /logo.png
+  BookLogo: /cc5330.svg
+  BookDarkLogo: /cc5330-dark.svg
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
@@ -97,7 +99,7 @@ params:
   # - In git information
   # - In blog posts
   # https://gohugo.io/functions/time/format/
-  BookDateFormat: "January 2, 2006"
+  BookDateFormat: "2 de January de 2006"
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
