@@ -55,7 +55,7 @@ menu:
 
   before:
     - name: "💬 Foro de U-Cursos"
-      url: "www.u-cursos.cl/ingenieria/2026/2/CC5330/1/historial/"
+      url: "https://www.u-cursos.cl/ingenieria/2026/2/CC5330/1/historial/"
   after:
     - name: "🖨️ Versión imprimible"
       url: "/docs/"
