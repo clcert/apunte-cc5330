@@ -72,12 +72,12 @@ Las notas del curso para este semestre son:
     * **Si asistes a todas las evaluaciones o justificas todas las inasistencias**, es el promedio de las mejores 4 notas.
     * **Si no**, es el promedio de todas las notas.
 * **Nota Final**: 
-    * **Si tu NLAB es menor a $5{,}5$**: $\frac{NLAB+NCE}{2}\times 0{,}6 + NEX \times 0{,}4$
+    * **Si tu NCE es menor a $5{,}5$**: $\frac{NLAB+NCE}{2}\times 0{,}6 + NEX \times 0{,}4$
     * **En caso contrario**,  $\frac{NLAB+NCE}{2}$
 
 ### Justificación de inasistencias
 
-Toda evaluación justificada por Workflow de la Escuela se considerará justificada. Además, durante todo el semestre, puedes justificar la inasistencia a **una evaluación** sin necesidad de usar Workflow de UCampus. Solo necesitas enviar un correo con copia a todo el equipo docente (Profesor, auxiliar y ayudante) al menos 30 minutos antes del inicio de la auxiliar de bloque extendido, indicando que quieres usar esta opción.
+Toda evaluación justificada por el sistema _Workflow_ de la Escuela se considerará correctamente justificada. Además, durante todo el semestre, puedes justificar la inasistencia a **una evaluación** sin necesidad de usar Workflow de UCampus. Solo necesitas enviar un correo con copia a todo el equipo docente (Profesor, auxiliar y ayudante) al menos 30 minutos antes del inicio de la auxiliar de bloque extendido, indicando que quieres usar esta opción.
 
 ### Notas recuperativas
 
