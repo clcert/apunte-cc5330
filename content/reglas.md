@@ -71,9 +71,9 @@ Las notas del curso para este semestre son:
 * **Nota de Casos de Estudio** ($NCE$) y **Nota de Laboratorios** ($NLAB$):
     * **Si asistes a todas las evaluaciones o justificas todas las inasistencias**, es el promedio de las mejores 4 notas.
     * **Si no**, es el promedio de todas las notas.
-* **Nota Final**: 
-    * **Si tu NCE es menor a $5{,}5$**: $\frac{NLAB+NCE}{2}\times 0{,}6 + NEX \times 0{,}4$
-    * **En caso contrario**,  $\frac{NLAB+NCE}{2}$
+* **Nota Final**. Para aprobar, se deben cumplir dos condiciones:
+    * $CE >= 4{,}0$ 
+    * $NLAB >= 4{,}0$
 
 ### Justificación de inasistencias
 
