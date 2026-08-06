@@ -45,7 +45,6 @@ Hay tres tipos de evaluaciones:
 
 * **Casos de Estudio**: Evaluaciones individuales escritas de 30 minutos de duración, realizadas en papel antes de finalizar la auxiliar. El inicio de la auxiliar se usará para practicar un problema parecido al caso de estudio a evaluar.
 * **Laboratorios**: Evaluaciones en pareja (requieren al menos un computador por pareja), divididas en dos partes. La primera parte dura 90 minutos y consiste en resolver un problema específico sobre un código mal programado, entregando el código corregido por U-Cursos. La segunda parte consiste en contestar en papel (una respuesta por pareja) una pregunta relacionada al desarrollo de la tarea. La nota dependerá de la entrega del código y del contenido de la respuesta en papel.
-* **Examen**: Se realiza durante la semana de exámenes. Puedes eximirte del examen si cumples con las reglas de evaluación que apliquen en la Escuela de Ingeniería en ese momento.
 
 **Es posible usar apuntes durante las evaluaciones escritas**, siempre y cuando éstos estén contenidos en **no más de una hoja de papel de tamaño oficio**. La hoja puede estar escrita a mano o puede estar impresa por ambos lados. Para las evaluaciones de más de una persona, se permite usar solo una hoja por integrante del grupo. Los y las integrantes de un mismo grupo pueden compartir las hojas entre sí.
 
@@ -66,13 +65,13 @@ Si luego de la publicación de la nota el o la estudiante desea una recorrecció
 
 Las notas del curso para este semestre son:
 
-* Al menos 5 **Casos de estudio** ($CE_1, CE_2, CE_3, CE_4, CE_5$)
-* Al menos 5 **Laboratorios** ($LAB_1, LAB_2, LAB_3, LAB_4, LAB_5$)
+* 5 **Casos de estudio** ($CE_1, CE_2, CE_3, CE_4, CE_5$)
+* 5 **Laboratorios** ($LAB_1, LAB_2, LAB_3, LAB_4, LAB_5$)
 * **Nota de Casos de Estudio** ($NCE$) y **Nota de Laboratorios** ($NLAB$):
     * **Si asistes a todas las evaluaciones o justificas todas las inasistencias**, es el promedio de las mejores 4 notas.
     * **Si no**, es el promedio de todas las notas.
 * **Nota Final**. Para aprobar, se deben cumplir dos condiciones:
-    * $CE >= 4{,}0$ 
+    * $NCE >= 4{,}0$ 
     * $NLAB >= 4{,}0$
 
 ### Justificación de inasistencias
@@ -81,7 +80,7 @@ Toda evaluación justificada por el sistema _Workflow_ de la Escuela se consider
 
 ### Notas recuperativas
 
-En principio, **solo las evaluaciones justificadas podrán ser recuperadas**. La recuperación se hará repitiendo la nota del examen.
+En principio, **solo las evaluaciones justificadas podrán ser recuperadas**. La recuperación se hará con una evaluación en el bloque de examen designado por la Escuela.
 
-Dependiendo de la extensión del semestre y la cantidad de evaluaciones realizadas, se considerará la posibilidad contar con una evaluación recuperativa distinta al examen, **pero esto no se encuentra confirmado**.
+Dependiendo de la extensión del semestre y la cantidad de evaluaciones realizadas, se considerará la posibilidad contar con una evaluación recuperativa adicional, **pero esto no se encuentra confirmado**.
 
