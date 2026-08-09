@@ -10,6 +10,8 @@ title: Lo que sé
 En esta categoría tenemos los siguientes mecanismos:
 * **Contraseñas**: Cadenas de texto secretas usadas por un sistema para determinar si alguien es quien dice ser. **Deberían ser largas, a veces recordables y no fácilmente adivinables**
 * **Número de identificación personal (PIN por su sigla en inglés)**: Cadena de texto corta y generalmente numérica para determinar si alguien es quien dice ser. **No debería representar una fecha importante**.
+* **Preguntas de seguridad**: Preguntas que se muestran generalmente en caso de olvidar una contraseña. **Se supone que la respuesta debería ser conocida solo por la persona que tiene derecho a usar la cuenta**, pero eso en un mundo donde todo el mundo usa redes sociales es muy poco realista. 
+
 
 > [!WARNING]
 > Algunas personas y empresas recomiendan cambiar contraseñas y pines seguido, pero esto hoy **no se recomienda, siempre y cuando no haya evidencia de que el dato pudo haber perdido su calidad de secreto**. El **CSIRT Nacional** [tiene un artículo muy interesante sobre este tema](https://csirt.gob.cl/articulo/obligar-a-cambiar-claves-cada-90-dias-es-mala-idea/).
@@ -204,6 +206,18 @@ Esta información es luego revisada y vendida por _actores de amenaza_ (esto tam
 
 Hoy en día, los _actores de amenaza_ que buscan ingresar a sitios específicos compran a otros _actores de amenaza_ esta información, para luego desplegar _ransomware_ o exfiltrar otro tipo de información valiosa.
 
+
+## Recomendaciones del SP 800-63-4
+
+La guía del NIST mencionada al inicio del capítulo entrega algunas recomendaciones generales (muchas de ellas están en este apunte) para disminuir los riesgos del uso de contraseñas. En resumen, hay que:
+
+* Evitar expirar contraseñas sin razón.
+* Preferir el largo de una contraseña sobre su complejidad.
+* Prohibir contraseñas comunes o filtradas.
+* Prohibir las "preguntas de seguridad".
+* Usar autentificación multifactor (lo seguiremos viendo).
+* Promover el uso de administradores de contraseñas.
+
 ---
 
 ## Conclusiones
@@ -214,5 +228,11 @@ Con lo que hemos aprendido hasta ahora, podemos desmitificar un poquito el cómo
 
 > [!COMMENT]
 > El comic de arriba es del 2019. Podríamos decir que hoy (2026) la fuente más probable es un feed de un infostealer.
+
+
+Las contraseñas tienen muchos puntos posibles de fallo. Esta diapositiva del curso antiguo muestra algunos:
+
+![Diapositiva mostrando varios puntos en los que una contraseña se podría filtrar](image.png)
+
 
 Es por esto que usar solo una contraseña no es suficiente para el modelo de amenaza comúnmente reconocido en sistemas conectados a Internet. La mitigación más efectiva a este problema es usar más de un tipo de factor de autentificación, lo que nos lleva a describir los dos tipos restantes.

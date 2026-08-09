@@ -64,13 +64,20 @@ La autentificación en contextos de sistemas de la información depende de **mec
 Estos mecanismos se clasifican en tres tipos:
  * **Lo que sé**, a partir de información que solo yo debería conocer y memorizar o guardar en algún lado.
    > [!COMMENT]
-   > _...lo malo es que son copiables, compartibles o filtrables 🫠..._
+   > _...lo malo es que son copiables, compartibles o filtrables_ 🫠
  * **Lo que tengo**, a partir de objetos que tengo en mi poder (y nadie más puede tener mientras yo lo tenga).
    > [!COMMENT]
-   > _...si los pierdo es un cacho recuperarlos y necesito algún medio para bloquearlos..._
-
+   > _...si los pierdo es un cacho recuperarlos y necesito algún medio para bloquearlos_
+ * **Lo que soy**, a partir de elementos propios de mi cuerpo o de mi identidad.
+   > [!COMMENT]
+   > ¿y quién guarda esta información? ¿cómo hago para evitar que se use para identificarme cuando no quiero ser identificado? 🥷
 
 Cuando un sistema usa más de un tipo de los mecanismos anteriores, **y estos mecanismos no dependen entre sí**, estamos hablando de sistemas con **Autenticación Multifactor** (_MFA_ por sus siglas en inglés o _2FA_ cuando son solo dos mecanismos los usados)
 
 > [!TIP]
 > **¿Qué significa que los mecanismos no dependan entre sí?**: Que a partir de uno, no pueda derivar otro. Por ejemplo, si tengo una cuenta que para iniciar sesión me pide contraseña y para ejecutar acciones críticas me envía un código de un solo uso al correo o teléfono, pero puedo reiniciar ese último mecanismo contando solo con la contraseña, éste **no es un sistema con un mecanismo autentificación multifactor válido**.
+
+
+## Mejores prácticas en identidad digital
+
+Considerando todo lo anterior, el _NIST_ (Organismo de estándares tecnológicos de Estados Unidos) publicó el 2025 la versión final del [Instructivo SP 800-63-4](https://csrc.nist.gov/pubs/sp/800/63/4/final), que define un conjunto de buenas recomendaciones para modelar y resguardar la identidad digital en sistemas de la información.
