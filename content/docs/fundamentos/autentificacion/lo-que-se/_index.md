@@ -10,7 +10,10 @@ title: Lo que sé
 En esta categoría tenemos los siguientes mecanismos:
 * **Contraseñas**: Cadenas de texto secretas usadas por un sistema para determinar si alguien es quien dice ser. **Deberían ser largas, a veces recordables y no fácilmente adivinables**
 * **Número de identificación personal (PIN por su sigla en inglés)**: Cadena de texto corta y generalmente numérica para determinar si alguien es quien dice ser. **No debería representar una fecha importante**.
-* **Preguntas de seguridad**: Preguntas que se muestran generalmente en caso de olvidar una contraseña. **Se supone que la respuesta debería ser conocida solo por la persona que tiene derecho a usar la cuenta**, pero eso en un mundo donde todo el mundo usa redes sociales es muy poco realista. 
+* **Preguntas de seguridad**: Preguntas que se muestran generalmente en caso de olvidar una contraseña. **Se supone que la respuesta debería ser conocida solo por la persona que tiene derecho a usar la cuenta**, pero eso en un mundo donde todo el mundo usa redes sociales es muy poco realista, por lo que su uso **se encuentra desrecomendado**. 
+
+> [!WARNING]
+> Si estás diseñando un sistema nuevo, **No uses preguntas de seguridad como método para recuperar los accesos**. 
 
 
 > [!WARNING]
@@ -201,6 +204,8 @@ Un infostealer es un tipo de _malware_ (veremos más de esto más adelante) que 
  * Tokens de acceso de aplicaciones instaladas en el escritorio (_Discord_, _Telegram_, _Notion_, etc.).
  * Llaves privadas de wallets de criptomonedas.
  * Historial, cookies, **contraseñas** y datos de autocompletado de navegadores.
+
+El robo de contraseñas puede depender del uso de los **gestores de claves de navegador**. Existen investigaciones de amenazas (como las de [Talos Intelligence](https://blog.talosintelligence.com/olympic-destroyer/) y [proofpoint](https://www.proofpoint.com/us/blog/threat-insight/new-vega-stealer-shines-brightly-targeted-campaign)) que muestran cómo algunos tipos de _malware_ buscan en las carpetas con datos de perfiles de navegador esta información, la cual **no es almacenada por defecto de forma cifrada como en los gestores de contraseña tradicionales** (posiblemente para no pedir una contraseña cada vez que se inicia el navegador).
 
 Esta información es luego revisada y vendida por _actores de amenaza_ (esto también lo veremos más adelante) en paquetes o agrupada por recurso afectado (por ejemplo, archivos con miles de contraseñas de un mismo sitio).
 
