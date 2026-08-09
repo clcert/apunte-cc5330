@@ -112,12 +112,18 @@ Dos ejemplos:
 Ideas de las que hablaremos en clases, pero que no tienen un lugar definido (todavía) en el apunte.
 
 * Considerar o no que un comportamiento es una vulnerabilidad dependerá de qué tan bien definido está el sistema. Si el sistema está bien definido, **esto debería ser claro para quienes conocen la definición.**
-> [!NOTE]
+> [!TIP]
 > **Discusión**: ¿Es una vulnerabilidad que cualquiera pueda conocer mi nombre sabiendo solo mi RUT?
 * El esfuerzo dedicado a evitar la ocurrencia de vulnerabilidades es inversamente proporcional a la confianza que se tiene en quienes lo usan, y directamente proporcional a la capacidad de los adversarios.
-> [!NOTE]
+> [!TIP]
 > **Discusión**: ¿Qué medidas de seguridad valdría la pena aplicar en un sistema de finanzas familiares no expuesto a Internet? ¿O en un curso dictado completamente a través de Discord?
 > * Define recursos a proteger y adversarios
 > * Define límites de confianza y superficies de ataque
 > * Define reisgos existentes, pondéralos cualitativamente y trata de hacerte cargo de ellos.
 > * Usa técnicas como árboles de decisión o modelo STRIDE, si lo necesitas.
+
+
+> [!TIP]
+> **Discusión**: ¿Qué relación tiene lo que hemos visto hasta ahora con este comic de xkcd?
+>
+> {{< image src="./security.png" alt="Tiempo que demora adivinar una contraseña por fuerza bruta" title="Tiempo que demora adivinar una contraseña por fuerza bruta" loading="lazy" >}}

@@ -84,7 +84,6 @@
     &.info { --accent-color: var(--color-accent-info); }
     &.success { --accent-color: var(--color-accent-success); }
     &.danger { --accent-color: var(--color-accent-danger); }
-
     border-color: var(--accent-color);
     background-color: color-mix(in srgb, var(--accent-color) 10%, transparent);
   }

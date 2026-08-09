@@ -77,6 +77,9 @@ A continuación presentamos 10 principios que aplican al diseño de sistemas y d
     * Limitación de instalación de firmware malicioso en el hardware
     * Red monitoreando intentos de infección a otros equipos.
 
+> [!TIP]
+> Piensa en casos (relacionados con computadores o no) en los que te has encontrado con este principio. En alguno de ellos, ¿recuerdas que una capa haya fallado y una más interna haya actuado?
+
 ## Principio de Aceptabilidad Psicológica
 * **Objetivo**: Las medidas de seguridad deben ser amigables para el usuario. Si no, no serán usadas.
 * **Supuesto**: Las personas terminan ignorando o intentando saltarse advertencias repetitivas, molestas y poco claras.
@@ -87,20 +90,20 @@ A continuación presentamos 10 principios que aplican al diseño de sistemas y d
 
 ## Otros principios (con explicaciones crípticas)
 
-* Modularización y encapsulación: Ya que los módulos son más fáciles de analizar y segurizar.
-* Reusar componentes seguros y conocidos: _Más vale diablo conocido que santo por conocer_
+* **Modularización y encapsulación**: Ya que los módulos son más fáciles de analizar y segurizar.
+* **Reusar componentes seguros y conocidos**: _Más vale diablo conocido que santo por conocer_
 * Seguridad y privacidad por diseño: Es más difícil agregar seguridad o privacidad en etapas finales de los proyectos.
-* Diseñar con capacidades evolutivas en mente: Los algoritmos criptográficos cambian. Deben ser fáciles de cambiar (como los hashes para derivación de contraseñas)
-* Confiar, pero verificar primero: Hasta los más confiables cometen errores y verificar algo suele ser barato o rápido (comparado con generar el valor).
+* **Diseñar con capacidades evolutivas en mente**: Los algoritmos criptográficos cambian. Deben ser fáciles de cambiar (como los hashes para derivación de contraseñas)
+* **Confiar, pero verificar primero**: Hasta los más confiables cometen errores y verificar algo suele ser barato o rápido (comparado con generar el valor).
 
->[!INFO]
+>[!TIP]
 > **Actividad**: Para cada uno de los casos siguientes, indica el principio que debería usarse o respetarse.
 > 
 > * Todo usuario creado en Windows XP (2001) operaba como administrador.
 > * Cuando el servicio Playstation Network fue vulnerado, no se detectó la intrusión y el atacante pudo recuperar contraseñas en texto plano de 77 millones de usuarios.
 > * Edward Snowden logró filtrar enormes cantidades de información clasificada de la NSA sin mayor impedimento.
 > * El mecanismo de serialización de objetos de Java ha sido fuente de muchas vulnerabilidades, incluyendo ejecución remota.
-> * En las vulnerabilidades de CPUs tipo Spectre y Meltdown), las CPU permitían a procesos acceder a memoria (alojada en el caché) que no debían.
+> * En las vulnerabilidades de CPUs tipo Spectre y Meltdown, las CPU permitían a procesos acceder a memoria (alojada en el caché) que no debían.
 > * El algoritmo WEP de seguridad inalámbrica fue quebrado cuando el cifrador asociado (RC4) fue analizado luego de ingeniería reversa.
 > * El bug “heartbleed” de OpenSSL (2014) surge del subprotocolo “heartbeat”,  una extensión muy simple dentro de un módulo de 500 mil líneas de código.
 > * Windows UAC en Vista (2007) por default mostraba una ventana pop-up para autorizar todo cambio que requiriera autorización, lo cual era frecuentemente deshabilitado.

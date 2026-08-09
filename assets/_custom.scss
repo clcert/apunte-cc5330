@@ -26,3 +26,37 @@
     }
   }
   
+
+
+@font-face {
+    font-family: 'Dudu Calligraphy';
+    src: url(/fonts/comment.ttf) format('truetype');
+}
+
+.book-hint {
+  &.comment { 
+      color: white;
+      font-weight: bold;
+      background-color: #2c2c2c;
+      border: solid 1px; 
+      margin: 1vh 2vw;
+      padding: 1.5vh 1.5vw;
+      text-align: center;
+      border-radius: 1vw;
+      font-family: "Dudu Calligraphy";
+      a {
+        color: white!important;
+        text-decoration: underline;
+      }
+    }
+}
+
+.markdown {
+  h4, h5, h6 {
+    font-weight: bold;
+  }
+}
+
+nav ul a{
+  display: block;
+}

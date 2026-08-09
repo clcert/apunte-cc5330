@@ -3,7 +3,7 @@ title: CC5330 - Ciberseguridad
 theme: hugo-book
 defaultContentLanguage: 'es'
 
-copyright: "Apunte mantenido por el [Laboratorio de Criptografía Aplicada y Ciberseguridad de la Universidad de Chile](https://clcert.cl) y distribuido bajo una [licencia Creative Commons BY-NC-SA]( https://creativecommons.org/licenses/by-nc-sa/4.0/)"
+copyright: "Apunte mantenido por el [Laboratorio de Criptografía Aplicada y Ciberseguridad de la Universidad de Chile](https://clcert.cl) y distribuido bajo una [licencia Creative Commons BY-NC-SA]( https://creativecommons.org/licenses/by-nc-sa/4.0/). <br><br> Tema basado en [Hugo Book](https://github.com/alex-shpak/hugo-book) de Alex Shpak."
 
 # Book configuration
 disablePathToLower: true

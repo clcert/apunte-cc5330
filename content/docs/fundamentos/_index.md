@@ -9,6 +9,38 @@ title: 📚 Fundamentos de Ciberseguridad
 
 El siguiente es un punteo (un poco menos desordenado que la versión en vivo) de lo que vemos en las primeras dos clases.
 
+## Simbología
+
+> [!DEFAULT]
+> Las secciones grises (todas menos esta) contienen descripciones importantes sobre cómo funciona el curso. No están relacionadas con la materia. Si no estás tomando el curso, te las puesdes saltar.
+
+>[!INFO]
+> Las secciones azules (todas menos esta) son contienen descripciones importantes sobre la materia. **Recomendamos no saltárselas**.
+
+>[!TIP]
+> Las secciones verdes (todas menos esta) son sugerencias de actividades y preguntas para intentar entender mejor la materia. No tienen respuesta en el apunte. Te recomendamos comentarla con compañeros/as, con auxiliares o con profesores en tus bloques de estudio o en las clases presenciales.
+
+>[!IMPORTANT]
+> Las secciones moradas son comentarios muestran secciones en construcción del apunte, o secciones que no son tan profundas como le gustaría al equipo docente y que serán complementadas en el futuro. Si te animas a proponer algo y aparecer en [🙏 Agradecimientos](/agradecimientos), lee las reglas de contribución en el [README.md](https://github.com/clcert/apunte-cc5330) y envía un _Pull Request_.
+
+>[!WARNING]
+> Las secciones amarillas (todas menos esta) representan **implementaciones inseguras** o **Errores comunes**. Es muy importante leerlas con cuidado para evitar cometerlos. Si solo tuvieran que elegir una tipo de aprendizaje en el curso completo para memorizar, **debería ser todo lo amarillo**.
+
+
+>[!DANGER]
+> Las secciones rojas (todas menos esta) representan peligro en el mundo real. 
+
+> [!DEFAULT]
+> Las secciones que parten con los emoji 🧢🧑‍💻 (`gorro de desarrollador(a)`) estarán orientadas a **explicar medidas que debe tomar un(a) desarrollador(a) de software para evitar problemas de ciberseguridad**. Cuando partan con 🧢🧑 (`gorro de usuario/a`), estarán orientadas a **explicar medidas que debe tomar cualquier usuario o usuaria de sistemas informáticos**. 
+
+> [!COMMENT]
+> Las secciones negras (todas menos esta) corresponden a comentarios al margen sobre el apunte. Recomiendo leerlas con la voz de un estudiante o profesional un poco escéptico que está dando el curso. 
+> 
+> Es posible que ustedes tengan este tipo de dudas mientras leen el apunte, por lo que el objetivo de estos comentarios es guiar la discusión para que el apunte se haga cargo de ellas.
+>
+> Si se les ocurren nuevas dudas, envíenlas por correo electrónico al equipo docente o háganlas en clases, y las incluiremos para seguir mejorando el apunte. Como premio, aparecerán en el [muro de agradecimientos](/)
+
+> Las secciones con borde negro son citas y/o comentarios al margen de los autores del apunte.
 
 ## Lo administrativo
 
@@ -38,9 +70,6 @@ El contenido que veremos debería servirles sin importar si quieren o no dedicar
 
 Usaremos estas definiciones por ahora. Las mejoraremos a medida vayamos adentrándonos en la materia.
 
-> [!INFO]
-> **Discusión**: Cuando veas este recuadro, trata de contestar por tu cuenta la pregunta dentro de él.
-
 
 ### Hacking ético (y del otro)
 
@@ -62,8 +91,8 @@ Los ciberdelincuentes (o _crackers_ o _sombrero negro_) vulneran sistemas sin pe
 
 Los sistemas que discutiremos y que están en producción, en general, son revisados con respecto a que hagan o no **las cosas que tienen que hacer**. Lo que no se revisa siempre es si hacen o no **lo que no tienen que hacer**. En la falta de revisión de esta última categoría se originan las **vulnerabilidades** (las definiremos con detalle en la sección de ese nombre, pero por ahora, quedémonos con esto).
 
-> [!INFO]
-> **Discusión**: ¿Qué debe hacer un sistema de pago en línea? ¿Qué no debe hacer un sistema de pago en línea?
+> [!TIP]
+> ¿Qué debe hacer un sistema de pago en línea? ¿Qué no debe hacer un sistema de pago en línea?
 
 Desde el punto de vista de ciberseguridad, hablamos al menos de cinco propiedades que queremos cuidar en un sistema. En palabras simples, son:
   * **Confidencialidad**: Que solo puedan acceder a información quienes tienen derecho a accederla.
@@ -72,8 +101,8 @@ Desde el punto de vista de ciberseguridad, hablamos al menos de cinco propiedade
   * **Autenticidad**: Que podamos comprobar que la información proviene de quien dice venir
   * **No repudio**: Que si logramos comprobar que la información viene de alguien, no exista posibilidad de que no venga de esa entidad.
 
-> [!INFO]
-> **Discusión**: Para cada uno de los casos anteriores, piensa en sistemas que deberían considerar especialmente esa propiedad. ¿Por qué deberían considerarla?
+> [!TIP]
+> Para cada uno de los casos anteriores, piensa en sistemas que deberían considerar especialmente esa propiedad. ¿Por qué deberían considerarla?
 
->[!SUCCESS]
+>[!TIP]
 > **Lectura complementaria**: ¿Cómo me aseguro qué es un sistema es seguro? ¿Basta con tener su código fuente y compilarlo por mi cuenta? ¿Y si no confío en el compilador o el intérprete? Revisa [Reflections on Trusting Trust](https://dl.acm.org/doi/epdf/10.1145/358198.358210) del ganador del premio Turing y co-creador de Unix [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson).
