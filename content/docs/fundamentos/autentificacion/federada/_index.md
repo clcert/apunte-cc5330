@@ -96,7 +96,7 @@ Algunas plataformas abiertas que pueden usarse para implementar IDPs. Todas ella
 > [!TIP]
 > 🧪 Posiblemente en el laboratorio 1 vamos a integrarnos con alguno de estos sistemas.
 
-## Ventajas y desventajas de a autentificación federada
+## Ventajas y desventajas de la autentificación federada
 
 Desde el punto de vista de ciberseguridad, la autentificación federada tiene algunas ventajas:
 
@@ -108,7 +108,7 @@ Sin embargo, también hay algunas desventajas:
 * **Mayor riesgo de ataques en IDP**: Si el IDP es muy usado en muchos tipos de cuentas, el impacto de filtración de una contraseña, de indisponibilidad o del descubrimiento de una vulnerabilidad en sus sistemas es mucho mayor. Un ejemplo concreto de esto en nuestro país es ClaveÚnica, que permite inicio de sesión en más de 400 sistemas distintos, [según su sitio web](https://portaldatos.digital.gob.cl/dashboards/dash_cu). 
 * **Hay decisiones de diseño importantes que tomar al administrarlo**: Una vulnerabilidad típica de sistemas IDP mal configurados es la maleabilidad del ID de usuario. Si el IDP permite cambio de IDs de usuario (correos electrónicos o nombres de usuario personalizados) y ese valor es enviado en las integraciones a las aplicaciones web que lo usan como sistema de SSO, es posible que un usuario, cambiando su identificador por el de otro usuario que lo haya cambiado hace poco o haya eliminado su cuenta, **pueda entrar a una cuenta externa que no le corresponde**.
 * **Se requiere confiar mucho en el IDP**: La institución que administra el IDP **posee la capacidad técnica de poder iniciar sesión en cualquiera de las cuentas de sus usuarios** (y las cuentas en las que estos usan el IDP para autenticarse), incluso sin conocer las contraseñas. También, **el IDP se entera de todos los sitios que usan sus usuarios, cuándo inician sesión y cuando la cierran**, lo que puede ser un riesgo de privacidad.
-* ****
+
 
 > [!TIP]
 > Elabora una lista de casos en los cuales crees que es conveniente contar con un IDP y en qué casos no lo es, justificando cada decisión.
