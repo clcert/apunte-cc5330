@@ -196,7 +196,16 @@ Dado un conjunto de palabras que se conoce común en las contraseñas de las per
 
 {{< image src="./dictionary-attack.jpg" alt="El primer comic de la sección de humor de clcert.cl. Una persona tirando un diccionario a otra y gritando dictionary attack!" title="El primer comic de la sección de humor de clcert.cl" loading="lazy" >}}
 
-### Infostealers
+### Ataques sobre gestores de claves
+
+Los gestores de claves, como cualquier otra aplicación, pueden sufrir vulnerabilidades:
+
+* [**KeePass Exploit Allows Attackers to Recover Master Passwords from Memory** (23 de mayo de 2023)](https://thehackernews.com/2023/05/keepass-exploit-allows-attackers-to.html): Un ataque que permita exfiltrar la memoria volátil de un equipo permitiría recuperar la clave primaria de un archivo _Keepass_.
+* [**Bypass de métodos de autenticación en el cliente de Bitwarden de Windows** (28 de enero de 2023)](https://www.sentinelone.com/vulnerability-database/cve-2023-27706/): Mal manejo de claves en la aplicación Bitwarden permitiría a un usuario sin privilegios saltarse la autentificación biométrica para desbloquear Bitwarden.
+* [**Ataque de cadena de suministro en Bitwarden** (23 de abril de 2026)](https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html): Un *Ataque de Cadena de Suministro* es cuando un actor de amenaza logra modificar el código de una dependencia de un software objetivo, modificando el comportamiento de todas las aplicaciones dependientes. En este caso, un actor de amenaza logró comprometer una acción de GitHub usada por Bitwarden para modificar el código generado en el proceso de integración y despliegue continuo (CI/CD).*
+* **Filtraciones de LastPass** (en los años [2015](https://blog.lastpass.com/posts/lastpass-security-notice), [2022](https://www.forbes.com/sites/daveywinder/2025/12/14/lastpass-data-breach---insufficient-security-exposed-16-million-users/) y [2026](https://www.pcmag.com/news/lastpass-breached-once-again-hackers-gain-access-to-sensitive-customer)): El proveedor de servicio de gestión de contraseñas _LastPass_ ha sufrido un número de filtraciones de datos de usuarios mayor al que uno esperaría para cualquier aplicación de gestión de claves. Las filtraciones han demostrado que el modelo de almacenamiento de datos de _LastPass_ deja mucho que desear.
+
+### Infostealers*
 
 Un infostealer es un tipo de _malware_ (veremos más de esto más adelante) que se instala en los computadores de los usuarios y **envía a un servidor controlado por un atacante todo tipo de información personal, como por ejemplo**:
  * Datos específicos del equipo (Sistema operativo, características de hardware, IP externa):

@@ -122,11 +122,34 @@ Otro problema difícil de mitigar sin enrolar dispositivos o mecanismos de auten
 
 ## Passkeys
 
-Las [_Passkeys_](https://fidoalliance.org/passkeys/) son casos particulares del estándar FIDO que permiten a una persona iniciar sesión en una aplicación o sitio web usando los mecanismos de seguridad de sus dispositivos.
+Las [_Passkeys_](https://fidoalliance.org/passkeys/) o _llaves de acceso_ son casos particulares del estándar FIDO que permiten a una persona iniciar sesión en una aplicación o sitio web usando los mecanismos de seguridad de sus dispositivos. Son parte del estándar de autenticación web [_WebAuthn_](https://www.w3.org/TR/webauthn/).
 
-El objetivo de las _passkeys_ es desincentivar el uso de contraseñas escritas para iniciar sesión en plataformas.
+El objetivo de las _passkeys_ es desincentivar el uso de contraseñas escritas (y evitar todos los problemas relacionados con ellas) para iniciar sesión en plataformas. Muchas plataformas conocidas (entre ellas Google, X y Meta) las soportan como medio alternativo de autenticación a las contraseñas.
 
+Su funcionamiento lo veremos con más detalle en la sección de _Criptografía_ y está basado en el uso de claves asimétricas, pero describiremos acá algunas de sus ventajas:
+
+* Son resistentes a algunos ataques de tipo _sitio fraudulento_. En estas situaciones, un atacante crea una página muy parecida a una real y logra que una víctima ingrese a ella (ya sea a través de _phishing_ o de _malvertising_). La _passkey_ no se puede utilizar por diseño en un dominio distinto al usado para registrarla, lo que hará que el sistema operativo no la ofrezca.
+* Eliminan el problema de memorización, predictibilidad y repetición que tienen las contraseñas. Una _passkey_ es válida solo en un sitio a la vez. 
+* No requieren el almacenamiento de un valor privado de parte del proveedor del servicio, basta con guardar la llave pública generada.
+
+Esta imagen del usuario [Trscavo](https://en.wikipedia.org/wiki/User:Trscavo) en Wikipedia muestra el flujo común de uso de _passkeys_ (se puede ver el uso de un factor adicional en el dispositivo que almacena la passkey para autorizar la generación de la _afirmación firmada_)
+
+![Imagen del flujo de PassKey](image-6.png)
+
+* El usuario pide iniciar sesión en `www.example.com` (sitio en el que ya inició sesión previamente).
+* El sitio `www.example.com` envía un _desafío_ (challenge) dependiente de la llave pública y resolvible solo contando con la llave privada correspondiente (_passkey_). El desafío es recibido por el dispositivo que almacena la _passkey_  para resolver.  
+* El dispositivo pide una confirmación adicional (lo que sé: PIN, lo que soy: Huella/Cara) para autorizar la resolución del desafío. El usuario entrega la confirmación correspondiente.
+* El dispositivo genera la _afirmación firmada_ (_signed assertion_) y la entrega al sitio `www.example.com` por **HTTPS**, el cual la valida. Si la afirmación es correcta, la sesión se inicia.
+
+También tienen algunas desventajas, fundamentalmente de usabilidad:
+
+* En algunos casos, debes registrar una _passkey_ por dispositivo desde el que quieres iniciar sesión. En algunas implementaciones de sistemas operativos, se permite delegar la autenticación a un dispositivo cercano al que está iniciando sesión, pero requiere el uso de sistemas propietarios (Windows, Mac) con teléfonos compatibles (Android con Servicios de Google o iOS).
+* En otros casos, la _passkey_ se puede guardar en una aplicación con datos portables como un _gestor de claves_. Sin embargo, ahora la seguridad de la passkey dependerá de la seguridad de la contraseña primaria del usuario, aumentando la posibilidad de que sea usada en otros dispositivos no reconocidos en caso de exfiltración de la contraseña.
+* Como en el caso de todo método de autenticación, se han descubierto algunos ataques en los últimos años:
+  * [SquareX en DEFCON 2025](https://www.youtube.com/watch?v=LCGm5-ZjKK0): Relacionado con el uso de extensiones maliciosas
+  * [PaloAlto en Agosto 2026 (!)](https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/): Relacionado con el uso de sistemas de respaldo de las Passkey en la nube.
 
 ## Conclusiones
 
-Ya contar con dos dispositivos de autenticación (uno del grupo "lo que sé" y otro del grupo "lo que tengo") estamos dificultando la mayor parte de los ataques actualmente exitosos. Sin embargo, todavía nos queda una categoría adicional que revisar: "lo que soy".
+Ya contar con dos dispositivos de autenticación (uno del grupo "lo que sé" y otro del grupo "lo que tengo") estamos dificultando la mayor parte de los accesos no autorizados a cuentas más exitosos hoy.
+
