@@ -31,12 +31,16 @@ Para todos estos ejemplos, existen los siguientes componentes que pueden afectar
 
 ## Problemas
 
-Una validación biométrica puede realizarse de **forma local** (todos los pasos anteriores en un mismo dispositivo) o de **forma parcialmente remota** (algunos pasos en dispositivos cercanos a la persona validando y otros no). En el caso parcialmente remoto, **dependemos de confiar en dispositivos que muy probablemente no están en nuestro control, como se ve en la imagen siguiente:
+Una validación biométrica puede realizarse de **forma local** (todos los pasos anteriores en un mismo dispositivo) o de **forma parcialmente remota** (algunos pasos en dispositivos cercanos a la persona validando y otros no). En el caso parcialmente remoto, **dependemos de confiar en dispositivos que muy probablemente no están en nuestro control**, como se ve en la imagen siguiente:
 
 ![Imagen que muestra algunos ejemplos de problemas qeu podrían surgir en cada etapa del procesamiento biométrico (en especial en entornos remotos)](image-1.png)
 
 * **Problemas en el lector o la parte del cuerpo escaneada**: Sensores de huella digital ([Samsung Galaxy S10](https://www.digitaltrends.com/phones/samsung-galaxy-s10-ultrasonic-fingerprint-scanner-fooled-by-screen-protector/)) y de reconocimiento facial ([iPhone X](https://www.cnet.com/news/privacy/kid-unlock-iphone-x-face-id/)) pueden ser burlados con condiciones de modificación (voluntaria o intencional) del lector o lectura de partes del cuerpo parecidas entre familiares, [fabricadas](https://blog.talosintelligence.com/fingerprint-research/) o generadas con Inteligencia Artificial. Como medida de mitigación, algunos sensores intentan tomar señales adicionales que muestren que la señal recibida viene de alguien vivo, o viene de una fuente en vivo.
 * **Retransmisión de valores previamente detectados**: Si el canal de transmisión entre el sensor y el sistema que valida la señal no es seguro, un atacante podría interceptar señales o reenviarlas a conveniencia. Para evitar esto, se recomienda usar canales de comunicación cifrados y que cuenten con mecanismos de autentificación seguros.
+
+> [!TIP]
+> Propon una implementación que permitiría transmisión de datos entre un sensor y un sistema que procesa los datos a través de un canal inseguro por defecto (Internet) (si no se te ocurre como, vuelve a esta pregunta después de que hayas leído Seguridad Web).
+
 * **Errores en el algoritmo de comparación**: Un algoritmo de comparación puede tener vulnerabilidades que hagan que se rechacen o acepten más o menos casos de los que se debería, [muchas veces perjudicando particularmente a minorías](https://www.nature.com/articles/d41586-022-03050-7). Generalmente, esto es calibrable a través de parámetros que ajustan el nivel de similitud del dato leído con el dato modelo. En otros casos (como el reconocimiento facial), el modelo es actualizado continuamente para detectar cambios en el tiempo (como aparición de barba, crecimiento de pelo o uso de lentes). La recomendación principal para evitar este problema es contar con un sistema robusto y ampliamente probado, que cuente con datos de alta calidad para comparar.
 * **Robo en la base de datos**: Un robo de una base de datos biométrica expone a todas las personas cuyos datos están almacenados en ella, ya que el atacante o cualquier persona que reciba estos datos podrá usarlos para identificar individuos registrados sin su autorización y ellas y ellos no tendrán forma de "cambiar sus datos biométricos". Este riesgo es más claro cuando la base de datos de información biométrica es centralizada, ya que existiría una motivación mucho mayor para un atacante en intentar acceder a ella. [Esto ocurrió en marzo de 2026 en NYC Health + Hospitals.](https://www.nychealthandhospitals.org/pressrelease/notice-of-data-breach/), y [se estima que afectó a 1,8 millones de personas](https://cybernews.com/security/nyc-health-hospitals-fingerprints-medical-records-breach/).
 
@@ -55,4 +59,14 @@ Los siguientes son casos interesantes de autentificación biométrica que se han
 
 * **Considerar esquemas completamente locales y aislados de otros componentes**: En el caso de dispositivos móviles, existen chips dedicados en ellos que se encargan de actuar de sensor, procesar el dato observado y compararlo con un dato modelo almacenado localmente. El riesgo de exfiltración de los datos biométricos disminuye tremendamente al compararse con un caso en el que el dato se almacena de forma remota. Todavía es posible enfrentarse a problemas de spoofing debido a vulnerabilidades o limitaciones en partes del sistema.
 * **Parametrizar bien según el modelo de amenaza**: Tener en consideración que la modificación de los umbrales de rechazo o aceptación de estos sistemas afectarán directamente a la cantidad de falsos positivos y falsos negativos (ambos con impacto en la seguridad o usabilidad del sistema).
+
+> [!TIP]
+> Piensa en algunos casos en los que quieras contar con identificación biométrica que cumplan las condiciones de los puntos más abajo, y propon algún sistema biométrico que sería adecuado para ellos.
+> * Los falsos positivos son muy malos, pero los falsos negativos no tanto
+> * Los falsos negativos son muy malos, pero los falsos positivos no tanto
+> * Da lo mismo si tenemos falsos positivos o negativos
+> * Hay que disminuir al máximo tanto los falsos positivos como los negativos
+
 * **Utilizar más de un factor para validar**: Mismo consejo que en las otras categorías de factores, mientras más de ellos se utilicen, menos probable es que ocurra un acceso no autorizado.
+
+
