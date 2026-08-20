@@ -28,7 +28,7 @@ En las secciones de seguridad de bajo nivel, notamos un primer mayor origen de d
 ## 🧢🧑‍💻 Como administrador de sistemas
 
 * **Activar medidas de seguridad en sistemas operativos**:
-  * **ASLR o _Adress Space Layout Randomization_**: Cambia las direcciones de memoria de los programas por un _offset_ aleatorio, dificultando la predictibilidad del espacio de memoria al que hay que saltar en el caso de querer ejecutar shellcode o código ROP. Dependiendo de la arquitectura del sistema, la aleatorización puede ser burlable con fuerza bruta o muy difícil de burlar. (en x86, en muchos casos basta con realizar muchos intentos de explotación con una dirección específica hasta que el programa distribuya su memoria en una dirección cercana a la elegida).
+  * **ASLR o _Address Space Layout Randomization_**: Cambia las direcciones de memoria de los programas por un _offset_ aleatorio, dificultando la predictibilidad del espacio de memoria al que hay que saltar en el caso de querer ejecutar shellcode o código ROP. Dependiendo de la arquitectura del sistema, la aleatorización puede ser burlable con fuerza bruta o muy difícil de burlar. (en x86, en muchos casos basta con realizar muchos intentos de explotación con una dirección específica hasta que el programa distribuya su memoria en una dirección cercana a la elegida).
 
   Esta medida de seguridad viene activada por defecto en todos los sistemas operativos modernos.
 

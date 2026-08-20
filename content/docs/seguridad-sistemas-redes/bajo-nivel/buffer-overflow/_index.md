@@ -121,8 +121,6 @@ Algunos ejemplos famosos:
 * **Structured Exception Handlers**: En C/C++ de Windows, existen estructuras que permiten manejar situaciones excepcionales de fallas en código de forma controlada. [Estas estructuras se llaman _Structured Exception Handlers_](https://learn.microsoft.com/en-us/cpp/cpp/structured-exception-handling-c-cpp?view=msvc-170). Si esta estructura está muy cerca de datos sobreescribibles, se puede usar un _Buffer Overflow_ para luego forzar una excepción y llamar a código arbitrario.
 
 
-### Otros tipos de desbordes (_overflows_)
-
 ## Bonus: Integer Overflow
 
 Recordemos la definición de los enteros en C. ¿Qué pasa si un número supera sus límites mínimos o máximos luego de una operación aritmética?
@@ -131,7 +129,7 @@ Como el tamaño de un número con respecto a su uso de memoria es fijo, si el va
 
 La siguiente imagen muestra un _integer overflow_:
 
-![Integer overflow](image-5.png)
+![Integer Overflow](image-8.png)
 
 > [!TIP]
 > Explica por qué este código podría genera una vulnerabilidad:

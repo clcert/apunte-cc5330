@@ -103,7 +103,7 @@ Los datos de tipo `bool` (`verdadero`, `falso`) se guardan en 1 bit. Es posible 
 
 Los datos de tipo `float` o números de coma flotante usan 4 bytes de tamaño. Existen los tipos `double` y `long double` que usan 8 y 16 bytes de tamaño. En todos los casos se representan usando el estándar [IEEE 754](https://www.h-schmidt.net/FloatConverter/IEEE754.html), el cual codifica el número en una notación similar a la científica, con 23 bits para la fracción, 8 bits para el exponente y 1 bit para el signo. La siguiente imagen del usuario de Wikipedia [Fresheneesz](https://en.wikipedia.org/wiki/User:Fresheneesz) muestra la distribución:
 
-![IEEE 754 para 32 bits](image.png)
+![IEEE 754 de 32 bits](image-7.png)
 
 Los datos anteriores (en el caso de 32 bits) se usan para calcular el número con esta fórmula: 
 
