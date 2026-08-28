@@ -24,7 +24,7 @@ Este es el sitio oficial del curso CC5330 - Ciberseguridad, dictado por el [Depa
 - ## 🧑‍🏫 Equipo Docente 
   * **Profesor de Cátedra**: Eduardo Riveros Roca
   * **Profesora Auxiliar**: Antonia Gutiérrez Calvo
-  * **Ayudante**:  Paz Catrilaf Catrilaf
+  * **Ayudante**:  Paz Catrilaf Catrilaf y Diego García Gassibe
 
 
   ## 🕓 Horario del curso
