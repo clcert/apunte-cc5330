@@ -50,3 +50,4 @@ Una vez que se arma una cadena ROP, se puede exportar como código de máquina p
 ## Otras referencias
 
 * [ROP en _HackTricks_](https://hacktricks.wiki/en/binary-exploitation/rop-return-oriented-programing/index.html#stack-alignment)
+* [Explotación Binaria en CTF 101](https://ctf101.org/binary-exploitation/overview/) (especialmente el capítulo sobre ROP)

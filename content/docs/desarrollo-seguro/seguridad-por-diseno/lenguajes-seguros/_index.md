@@ -1,4 +1,4 @@
 ---
-weight: 4
+weight: 2
 title: Lenguajes de programación seguros
 ---
