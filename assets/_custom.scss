@@ -33,7 +33,7 @@
     src: url(/fonts/comment.ttf) format('truetype');
 }
 
-.book-hint {
+.book-hint, details {
   &.comment { 
       color: white;
       font-weight: bold;

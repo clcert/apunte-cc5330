@@ -5,7 +5,7 @@ title: Android e iOS
 
 # Sistemas Operativos Móviles: Android e iOS
 
-
+Los sistemas operativos de dispositivos móviles están optimizados
 
 ## Sistema de permisos
 
@@ -13,7 +13,7 @@ title: Android e iOS
 
 ### Biometría
 
-### _HSMs_
+### HSMs
 
 ## Intents y comunicación entre aplicaciones
 
