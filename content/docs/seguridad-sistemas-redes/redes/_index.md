@@ -14,6 +14,19 @@ Esta sección del curso se basará en decisiones de diseño, debilidades y vulne
 > [!IMPORTANT]
 > 👷 **Pendiente**: Agregar redes móviles, bluetooth, radiofrecuencia y otros protocolos inalámbricos (como Zigbee).
 
+## Antes de la Internet
+
+No conectamos todos los computadores del mundo entre sí como objetivo inicial. Si bien la necesidad de conectar computadores a distancias grandes ha existido desde los inicios del desarrollo de estas máquinas (como vimos en seguridad de Sist. Operativos), los primeros objetivos de interconexión eran bastante específicos:
+
+* **ARPANET**: _Advanced Research Projects Agency Network_, una red de intercambio de paquetes creada en 1969 para usos militares del Depto. de Defensa de los Estados Unidos. Fue la primera en usar los protocolos TCP/IP que se usan hasta el día de hoy y con el tiempo fue transformándose en la red base para otras interconexiones de computadores (principalmente académicas).
+* **CSNET**: _Computer Science Network_, precursora de NSFNET, creada en 1981 para permitir a instituciones académicas conectarse a redes sin necesitar realizar una solicitud de acceso a ARPANET.
+* **NSFNET**: _National Science Foundation Network_, creada también por el gobierno de los Estados Unidos en 1985 a través de la [NSF](https://www.nsf.gov/), reemplazando a la _ARPANET_ como la red base de Internet.
+
+A medida fueron desarrollándose protocolos estándar para realizar estas conexiones y cada vez más consumidores finales (personas y pequeñas empresas) pudieron optar al uso de esta tecnología, estas redes empezaron a interconectarse de forma orgánica, formando una gran _red de redes_: la Internet.
+
+> [!COMMENT]
+> Si bien fue mucho después del inicio de desarrollo de la Internet en el mundo, en Chile tenemos un caso de red académica conocido denominado [**REUNA** o _Red Universitaria Nacional_.](https://reuna.cl/) Fue creada en 1994 con el objetivo de conectar entidades científicas, culturales y académicas del país. Es parte de [_RedCLARA_](https://redclara.net/es/somos/miembros/chile-reuna), que conecta redes académicas latinoamericanas desde inicios de los años 2000.
+
 ## Internet
 
 Como probablemente están viendo en el curso de Redes, Internet es un sistema global que interconecta redes de computadores entre sí, permitiendo la comunicación entre dispositivos conectados a ella.  
