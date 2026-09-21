@@ -21,7 +21,7 @@ La fecha estimada de las evaluaciones (todas con asistencia obligatoria) puede c
 | 5 (31 de agosto)       | 📲 Seguridad en Sistemas Operativos de Escritorio y Móviles                        | Auxiliar sin evaluación                            |
 | 6 (7 de septiembre)    | 🌐 Seguridad de Redes (en capas de Red y Transporte) y perimetral                  | Laboratorio 2 (ROP) el 10 de septiembre a las 14:30 hrs. |
 | RA1 (14 de septiembre) | 🛌 Receso Académico                                                                | Receso Académico                                   |
-| 7 (21 de septiembre)   | 📧 Seguridad en Aplicaciones Web y otras (DNS, Email, Bases de Datos)              | Caso de estudio 3 (Seguridad en Sist. Operativos)  |
+| 7 (21 de septiembre)   | 📧 Seguridad en Aplicaciones Web y otras (DNS, Email, Bases de Datos)              | Caso de estudio 3 (Seguridad en Sist. Operativos y Redes)  |
 | 8 (28 de septiembre)   | 🤖 Seguridad en IA Generativa                                                      | Laboratorio 3 (Seguridad de Aplicaciones Web)      |
 | 9 (5 de octubre)       | 🔑 Criptografía Moderna (Simétrica)                                                | Auxiliar sin evaluación                            |
 | 10 (12 de octubre)     | 🔑 Criptografía Moderna (Asimétrica) y Aplicaciones criptográficas                 | Caso de estudio 4 (Seguridad IA Generativa)        |
