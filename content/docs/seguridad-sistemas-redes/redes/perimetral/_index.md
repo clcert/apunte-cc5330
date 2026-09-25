@@ -43,7 +43,7 @@ A continuación nombramos algunos tipos de reglas típicos en los firewall perim
 > Las comunicaciones por videollamada casi siempre usan puertos poco convencionales. Estos puertos suelen estar bloqueados en redes corporativas para casi toda IP, excepto para IPs de proveedores de videollamada conocidos como Google, Microsoft, Zoom y Cisco. 
 
 > [!COMMENT]
-> La mayoría de los proveedores de internet residencial bloquean algunos puertos _aguas arriba_ (es decir, en el firewall más al borde de sus sistemas autónomos, en contraposición a _aguas abajo_: más cerca del usuario final) que suelen ser usados por atacantes que infectan computadores de usuarios para abusar de recursos computacionales. Uno de los casos más típicos es el envío de Spam, para lo cual se requiere acceder al puerto 53 de un equipo configurado como _relay de correo_ (veremos esto con más detalle en la sección correspondiente).
+> La mayoría de los proveedores de internet residencial bloquean algunos puertos _aguas arriba_ (es decir, en el firewall más al borde de sus sistemas autónomos, en contraposición a _aguas abajo_: más cerca del usuario final) que suelen ser usados por atacantes que infectan computadores de usuarios para abusar de recursos computacionales. Uno de los casos más típicos es el envío de Spam, para lo cual se requiere acceder al puerto 25 de un equipo configurado como _relay de correo_ (veremos esto con más detalle en la sección correspondiente).
 
 > [!COMMENT]
 > Piensa en alguna estrategia como atacante que ya ingresó a una red interna para conectarte a un servidor externo en una red que bloquea la comunicación a todos los puertos externos, excepto el 80 y el 443.

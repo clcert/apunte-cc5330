@@ -11,6 +11,7 @@ Colaboraron de una forma u otra en lo que es hoy este curso, en orden alfabétic
 
 * Alejandra Alarcón
 * Alejandro Hevia
+* Alfonso Prado
 * Andrés Cerda
 * Antonia Gutiérrez
 * Bárbara Castro
