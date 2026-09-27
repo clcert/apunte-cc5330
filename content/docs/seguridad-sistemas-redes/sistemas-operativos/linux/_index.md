@@ -143,7 +143,7 @@ En linux los dispositivos suelen ser mostrados como archivos en el sistema de ar
 
 ### Secure Boot (también en Windows)
 
-¿Cómo se que el sistema operativo que ejecuto en mi dispositivo no ha sido modificado por un atacante mientras dormía?
+¿Cómo se que el sistema operativo que ejecuto en mi dispositivo no` ha sido modificado por un atacante mientras dormía?
 
 Si el dispositivo cuenta con un chip seguro (TPM), es posible establecer una cadena de confianza entre todos los componentes de booteo del sistema operativo. A esta cadena le llamamos [Secure Boot](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot).
 
