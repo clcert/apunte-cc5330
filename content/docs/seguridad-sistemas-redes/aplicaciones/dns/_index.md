@@ -79,8 +79,6 @@ Algo curioso que ocurre cada cierto tiempo es que personas compran dominios como
 
 ![multipuertosaggob.cl](image-3.png)
 
-![slepchiloegob.cl](image-3.png)
-
 Generalmente los compran personas con nombres extraños, desde _agentes registradores_ fuera de Chile:
 
 ![datos de registro de multipuertosaggob.cl](image-4.png)
@@ -100,11 +98,7 @@ El caso de `multipuertosaggob.cl` es interesante, porque tiene un formulario de 
 > - ... un Organismo de Administración del Estado?
 > - ... un banco?
 
-### En su configuración
-
-Las siguientes son problemáticas asociadas a la configuración de los dominios:
-
-### Dominios a IPs olvidadas y dominios olvidadoes
+### Dominios a IPs olvidadas (y dominios olvidados)
 
 Para poder usar un dominio, necesitas un servidor DNS autoritativo que lo maneje, y apuntar a las IP de ese servidor en la configuración del Agente Registrador donde se compró el dominio. Esto permite delegar la zona completa.
 
