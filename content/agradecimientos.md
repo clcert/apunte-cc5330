@@ -10,6 +10,7 @@ title: 🙏 Agradecimientos
 Colaboraron de una forma u otra en lo que es hoy este curso, en orden alfabético:
 
 * Alejandra Alarcón
+* Javier Azocar
 * Alejandro Hevia
 * Alfonso Prado
 * Andrés Cerda
