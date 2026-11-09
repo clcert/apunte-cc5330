@@ -28,6 +28,6 @@ La fecha estimada de las evaluaciones (todas con asistencia obligatoria) puede c
 | 11 (19 de octubre)     | 🛡️ Seguridad por Diseño y Actores de Amenaza                                       | Laboratorio 4  (Criptografía)                      |
 | RA2 (26 de octubre)    | 🌴 Receso Académico                                                                | Receso Académico                                   |
 | 12 (2 de noviembre)    | 😈 Malware, Monitoreo y Detección                                                  | Auxiliar sin evaluación                            |
-| 13 (9 de noviembre)    | 🔎 Inteligencia de Amenazas y Respuesta a Incidentes                               | Caso de estudio 5 (Actores de amenaza)             |
+| 13 (9 de noviembre)    | 🔎 Inteligencia de Amenazas y Respuesta a Incidentes                               | Caso de estudio 5 (Malware y Actores de amenaza)             |
 | 14 (16 de noviembre)   | ⚖️ Leyes Chilenas y Reporte Coordinado de Vulnerabilidades                         | Laboratorio 5  (Inteligencia de Amenazas)          |
 | 15 (23 de noviembre)   | 👁️ Vigilancia y Anonimato                                                          | Auxiliar sin evaluación                            |
