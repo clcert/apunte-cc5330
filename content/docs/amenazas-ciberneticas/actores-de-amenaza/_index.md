@@ -42,7 +42,7 @@ Hay dos modelos estandarizados que definen las fases de un ataque:
 
 ## Algunos tipos de actores de amenaza
 
-* **Malware como servicio**: Se entiende como _malware como servicio_ al desarrollado y vendido a medida por grupos de amenaza a otros grupos de amenaza
+* **Malware como servicio**: Se entiende como _malware como servicio_ al desarrollado y vendido a medida por grupos de amenaza a otros grupos de amenaza. Uno de los ejemplos más comunes es el _Ransomware como Servicio_, donde un proveedor de ransomware entrega la plataforma completa a un atacante para ejecutar su ataque: desde los accesos iniciales en algunos casos hasta el malware específico que debe ejecutar para generar el efecto deseado.
 * **Initial Access Brokers**: Grupos o actores de amenaza que se encargan solamente de robar credenciales para su uso en técnicas de acceso inicial. Muchos de ellos usan phishing o infostealers para esto.
 * **Carding**: Robo y venta de tarjetas de crédito robadas, ya sea a través de exfiltración de datos de instituciones, robo desde navegadores o el envío de sitios web fraudulentos a clientes.
 * **Venta de servicios ilegales**: Algunos actores de amenaza se financian vendiendo servicios ilegales, como _hackeo_ a cuentas de otras personas, vulneración de instituciones por dinero, venta de licencias médicas u obtención de certificados fraudulentos.
